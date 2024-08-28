@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6496b1fa0479fa940ab83d77d6a34eec, type: 3}
+  m_Name: RewardPanelClose
+  m_EditorClassIdentifier: 
+  Fade: 1
+  UsePreviousStateAsDefault: 1
+  LoopBehaviour: 0
+  AnimateColor: 0
+  AnimateRGB: 1
+  AnimateAlpha: 1
+  AnimateScale: 1
+  Sequence:
+  - _easeTransitionState:
+      _scale: {x: 0, y: 0, z: 0}
+      _color: {r: 1, g: 1, b: 1, a: 0}
+    _ease: 1
+    _duration: 0.5
+    _delay: 0
+  ChainAnimation: 0
+  ChainedAnimation: {fileID: 0}
+  withMaxRepetitions: 0
+  repetitions: 5
